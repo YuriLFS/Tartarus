@@ -2,11 +2,11 @@ import { Footer } from "./footer"
 import { Header } from "./header"
 import VideoBg from '../../assets/VideoBgEstudo.mp4'
 import { PropsWithChildren } from "react"
-import { Link } from "react-router-dom"
+
 
 export const LayoutPrincipal = ({children}: PropsWithChildren) => {
 	return(
-		<div className="flex flex-col min-h-screen ">
+		<div className="flex flex-col min-h-screen font-milker">
 			
 			<div className="z-50">
 				<Header />

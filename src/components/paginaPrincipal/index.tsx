@@ -7,8 +7,8 @@ export const Index = () => {
 		
 		<LayoutPrincipal>
 				<div className="pt-10 pl-5">
-					<h2 className="text-white italic text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Bem-vindo ao Tártaro,</h2>
-					<h2 className="text-white italic text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">um local para testes e estudos de web dev.</h2>
+					<h2 className="text-white italic text-4xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Bem-vindo ao Tártaro,</h2>
+					<h2 className="text-white italic text-4xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">um local para testes e estudos de web dev.</h2>
 
 					<div className="pt-5 space-y-2 text-white font-medium">
 						<h2 className="text-white italic text-lg underline drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Alguns sites para refências de estudos:</h2>

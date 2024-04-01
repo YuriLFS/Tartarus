@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 interface CardDeSitesProps {
 	link: string,
-	icone: JSX.Element,
+	icone?: JSX.Element,
 	tituloSite: string,
 	descricaoSite?: string
 	bgColor: string

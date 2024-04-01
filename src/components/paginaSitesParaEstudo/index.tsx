@@ -8,9 +8,12 @@ import { CardDeSites } from "./cardDeSites"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel"
 import { ReactIcon } from "@/tools/icons/reactIcon"
 import { ViteIcon } from "@/tools/icons/viteIcon"
+import { ZodIcon } from "@/tools/icons/zodIcon"
+import { FluentFormIcon } from "@/tools/icons/fluentFormIcon"
+
+//Pagina Feita utilizando Componentização de CardDeSites,Conceito de Props e da biblioteca Shadcn-ui para criar o Carrossel de sites nessa página.
 
 export const SitesParaEstudosPage = () => {
-
 
 	const sites = [
 		{
@@ -36,7 +39,7 @@ export const SitesParaEstudosPage = () => {
 
 		},
 		{
-			link: "",
+			link: "https://vitejs.dev/",
 			icone: <ViteIcon />,
 			tituloSite: "Vite",
 			descricaoSite:"Ferramenta utilizada para facilitar a programação em JavaScrip ou TypeScript",
@@ -52,22 +55,36 @@ export const SitesParaEstudosPage = () => {
 		{
 			link: "https://reactrouter.com/en/main",
 			icone: <ReactRouterIcon />,
-			tituloSite: "React Router Doom",
+			tituloSite: "React Router Dom",
 			descricaoSite: "Ferramente para controlar e manipular rotas de um site.",
 			bgColor: "bg-red-600"
 		},
 		{
-			link: "https://tailwindcss.com/",
+			link: "https://ui.shadcn.com/",
 			icone: <ShadcnIcon />,
 			tituloSite: "Shadcn/ui",
 			descricaoSite: "Ferramenta que fornece componentes que funcionam junto a o TailWindCSS.",
 			bgColor: "bg-gray-800"
+		},
+		{
+			link: "https://zod.dev/",
+			icone: <ZodIcon />,
+			tituloSite: "Zod",
+			descricaoSite: "Ferramente de validação de formulário",
+			bgColor: "bg-green-700",
+		},
+		{
+			link: "https://www.npmjs.com/package/yup",
+			icone: <FluentFormIcon />,
+			tituloSite: "Yup",
+			descricaoSite: "Ferramente de validação de formulário",
+			bgColor: "bg-red-700",
 		}
 	];
 
 	return(
 		<LayoutPrincipal>
-			<h2 className="text-3xl text-white pt-8 pb-3 pl-4">Sites utilizados até então para estudos:</h2>
+			<h2 className="text-3xl text-white pt-8 pb-3 pl-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">Sites até então utilizados para estudos:</h2>
 							
 			<div className="flex justify-center items-center pt-5 w-full text-white text-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] gap-10 text-5xl ">	
 				<Carousel className="max-w-7xl">
