@@ -40,7 +40,11 @@ export const Header = () => {
 						Formulário React
 					</Link>
 				</button>
-				<button className="hover:text-black hover:text-lg hover:font-semibold duration-200">Option 1.3</button>
+				<button className="hover:text-black hover:text-lg hover:font-semibold duration-200">
+					<Link to={"/tailwind-exemplos"}>
+						Tailwind exemplos
+					</Link>
+				</button>
 				<button className="hover:text-black hover:text-lg hover:font-semibold duration-200">Option 1.4</button>
 			</div>			
 

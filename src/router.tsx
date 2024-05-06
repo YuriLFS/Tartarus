@@ -4,6 +4,7 @@ import { SitesParaEstudosPage } from "./components/paginaSitesParaEstudo"
 import { SandBox } from "./components/SandBox/sandBox"
 import { LeBlancCafePage } from "./components/SandBox/leBlacCafePage"
 import { FormularioPage } from "./components/paginaFormulario"
+import { TailwindExemplos } from "./components/paginaTailwindExemplos"
 
 const routes: RouteObject[] = [
 	{
@@ -21,6 +22,10 @@ const routes: RouteObject[] = [
 	{
 		path: "/formulario-teste",
 		element: <FormularioPage />
+	},
+	{
+		path: "tailwind-exemplos",
+		element: <TailwindExemplos />
 	},
 	{
 		path: "/sand-box",
