@@ -41,8 +41,8 @@ export const Header = () => {
 					</Link>
 				</button>
 				<button className="hover:text-black hover:text-lg hover:font-semibold duration-200">
-					<Link to={"/tailwind-exemplos"}>
-						Tailwind exemplos
+					<Link to={"/exemplos"}>
+						Exemplos
 					</Link>
 				</button>
 				<button className="hover:text-black hover:text-lg hover:font-semibold duration-200">Option 1.4</button>

@@ -2,8 +2,10 @@ import { LayoutPrincipal } from "@/tools/layoutPrincipal/layoutPrincipal"
 import { Calculadora } from "./calculadora"
 import { ListaDeAfazeres } from "./listaDeAfazeres"
 import { InputFG } from "./inputsFG"
+import { JogoDaVelha } from "./jogoDaVelha"
+import { ListDragAndDrop } from "./listaDND"
 
-export const TailwindExemplos = () => {
+export const Exemplos = () => {
     return(
         <LayoutPrincipal>
             
@@ -14,9 +16,14 @@ export const TailwindExemplos = () => {
                     <ListaDeAfazeres />
                 </div>
 
-                <div>
+                <div className="pl-5">
                     <InputFG />
 
+                    <JogoDaVelha />
+                </div>
+
+                <div className="w-72 h-96">
+                    <ListDragAndDrop />
                 </div>
             </div>
         
